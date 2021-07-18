@@ -1,0 +1,28 @@
+[08:35:50] alt:V Server 4.0 (release)
+[08:35:50] Starting TestServer on 0.0.0.0:7788
+[08:35:50] Loading resource example
+[08:35:50] Server with example resource started.
+[08:35:50] Loaded resource example
+[08:35:50] Loading resource auth
+[08:35:51] Loaded resource auth
+[08:35:51] Loading resource BetterClothingMenu
+[08:35:51] ============================================================================
+[08:35:51]                             Better Clothing Menu                            
+[08:35:51]         © 2021 - 2021 Alec S. - DerEchteAlec - All Rights Reserved.         
+[08:35:51] ============================================================================
+[08:35:51] Loaded resource BetterClothingMenu
+[08:35:51] Loading resource vehicle
+[08:35:52] Loaded resource vehicle
+[08:35:52] Required server permissions:
+[08:35:52] Optional server permissions:
+[08:35:52] Starting HTTP server on 0.0.0.0:7788
+[08:35:52] Main thread started (ThreadId: 30416)
+[08:35:52] VoicePacketProcess thread started (ThreadId: 9064)
+[08:35:52] VoiceStreamer thread started (ThreadId: 26072)
+[08:35:52] Colshape thread started (ThreadId: 23756)
+[08:35:52] EntityStreamer thread started (ThreadId: 12340)
+[08:35:52] Network thread started (ThreadId: 18056)
+[08:35:52] Console thread started (ThreadId: 27504)
+[08:35:52] Server started
+[08:35:59][Warning] Event handler at example:file:///C:/Users/Administrator/Desktop/game/resources/example/server/startup.js:11 was too long 9ms
+[09:18:08][Warning] Event handler at vehicle:file:///C:/Users/Administrator/Desktop/game/resources/vehicle/server.mjs:27 was too long 51ms
