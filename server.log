@@ -1,28 +1,48 @@
-[08:35:50] alt:V Server 4.0 (release)
-[08:35:50] Starting TestServer on 0.0.0.0:7788
-[08:35:50] Loading resource example
-[08:35:50] Server with example resource started.
-[08:35:50] Loaded resource example
-[08:35:50] Loading resource auth
-[08:35:51] Loaded resource auth
-[08:35:51] Loading resource BetterClothingMenu
-[08:35:51] ============================================================================
-[08:35:51]                             Better Clothing Menu                            
-[08:35:51]         © 2021 - 2021 Alec S. - DerEchteAlec - All Rights Reserved.         
-[08:35:51] ============================================================================
-[08:35:51] Loaded resource BetterClothingMenu
-[08:35:51] Loading resource vehicle
-[08:35:52] Loaded resource vehicle
-[08:35:52] Required server permissions:
-[08:35:52] Optional server permissions:
-[08:35:52] Starting HTTP server on 0.0.0.0:7788
-[08:35:52] Main thread started (ThreadId: 30416)
-[08:35:52] VoicePacketProcess thread started (ThreadId: 9064)
-[08:35:52] VoiceStreamer thread started (ThreadId: 26072)
-[08:35:52] Colshape thread started (ThreadId: 23756)
-[08:35:52] EntityStreamer thread started (ThreadId: 12340)
-[08:35:52] Network thread started (ThreadId: 18056)
-[08:35:52] Console thread started (ThreadId: 27504)
-[08:35:52] Server started
-[08:35:59][Warning] Event handler at example:file:///C:/Users/Administrator/Desktop/game/resources/example/server/startup.js:11 was too long 9ms
-[09:18:08][Warning] Event handler at vehicle:file:///C:/Users/Administrator/Desktop/game/resources/vehicle/server.mjs:27 was too long 51ms
+[02:22:17] alt:V Server 4.0 (release)
+[02:22:17] Starting alt:V Athena Roleplay Framework on 0.0.0.0:7788
+[02:22:17] Loading resource core
+[02:22:17] Loading resource webview
+[02:22:18] Loaded resource webview
+[02:22:18] [94m[Athena][39m [94m==> Total Bootup Time -- 34ms[39m
+[02:22:18] Loaded resource core
+[02:22:18] Required server permissions:
+[02:22:18]    Screen Capture
+[02:22:18] Optional server permissions:
+[02:22:18] Starting HTTP server on 0.0.0.0:7788
+[02:22:18] Main thread started (ThreadId: 4816)
+[02:22:18] VoicePacketProcess thread started (ThreadId: 7936)
+[02:22:18] VoiceStreamer thread started (ThreadId: 26940)
+[02:22:18] Colshape thread started (ThreadId: 13880)
+[02:22:18] EntityStreamer thread started (ThreadId: 21228)
+[02:22:18] Network thread started (ThreadId: 12148)
+[02:22:18] Console thread started (ThreadId: 16500)
+[02:22:18] Server started
+[02:22:18] [94m[Athena][39m [94mLoading extras folder...[39m
+[02:22:18][Warning] resourceManager.Update() took: 113 ms
+[02:22:18] [94m[Athena][39m [94mMongoDB connection was established.[39m
+[02:22:19][Warning] resourceManager.Update() took: 136 ms
+[02:22:19][Warning] resourceManager.Update() took: 177 ms
+[02:22:19] [94m[Athena][39m [97mLoaded: ./teleportEffect/teleporter[39m
+[02:22:19][Warning] resourceManager.Update() took: 107 ms
+[02:22:19] [94m[Athena][39m [97mLoaded: ./heistExample/index[39m
+[02:22:19] [94m[Athena][39m [97mLoaded: ./deathLog/deathLog[39m
+[02:22:19] [94m[Athena][39m [97mLoaded: ./actionMenu/actionMenu[39m
+[02:22:19] [94m[Athena][39m [97mLoaded: ./interactionExample/index[39m
+[02:22:19] [94m[Athena][39m [97mLoaded: ./noMiniGun/index[39m
+[02:22:19] [94m[Athena][39m [94mExtra Resources Loaded: 6[39m
+[02:22:19] [94m[Athena][39m [94mServer Warmup Complete. Now accepting connections.[39m
+[02:22:19][Warning] Event handler at core:file:///C:/Users/Administrator/Desktop/athena/resources/core/server/views/atm.js:134 was too long 6ms
+[02:22:19] [altv-reconnect] Probably Not Running Reconnection Script
+[02:22:19] [altv-reconnect] Probably Not Running Reconnection Script
+[02:22:21] [94m[Athena][39m [94mTotal Commands: 45[39m
+[02:22:24] [altv-reconnect] Finished Reconnection
+[02:22:25] (0) Player has connected to the server.
+[02:22:39] [Athena] (0) lytran has authenticated.
+[08:11:21] Tran_Daica has logged out.
+[08:11:23] (1) Player has connected to the server.
+[08:11:23] [Athena] (1) Discord 741863559394492476 has logged in with a Quick Token 
+[08:51:27] Stopping resource core
+[08:51:27] Stopped resource core
+[08:51:27] Stopping resource webview
+[08:51:27] Stopped resource webview
+[08:51:27] Server shutdown

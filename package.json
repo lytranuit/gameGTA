@@ -1,28 +1,65 @@
 {
-    "name": "altv-pkg server",
-    "version": "0.0.0",
-    "description": "Don't worry we made this package.json for you.",
-    "main": "index.js",
-    "scripts": {
-        "update": "altv-pkg d release"
-    },
+    "name": "altv-athena",
+    "version": "2.0.0",
+    "description": "a roleplay framework for alt:V",
     "author": "stuyk",
     "type": "module",
-    "prettier": {
-        "printWidth": 120,
-        "tabWidth": 4,
-        "singleQuote": true,
-        "bracketSpacing": true
+    "scripts": {
+        "clean": "rimraf ./resources",
+        "build": "npm run clean && swc ./src -d ./resources --copy-files --only **/*.ts --quiet",
+        "update": "altv-pkg d release",
+        "windows": "npm run build && altv-server.exe & npm run webserver",
+        "linux": "npm run build && ./start.sh & npm run webserver",
+        "webserver": "node ./utility/webserver/index.mjs",
+        "reconnect-server": "altv-reconnect",
+        "windev": "nodemon --watch \"./src/**\" --ext \"ts\" --exec \"npm run build && altv-server.exe\"",
+        "dev": "npm-run-all --parallel reconnect-server webserver windev"
     },
     "devDependencies": {
         "@altv/types-client": "^1.7.6",
         "@altv/types-natives": "^1.4.2",
         "@altv/types-server": "^1.9.6",
-        "@altv/types-webview": "^1.0.2"
+        "@altv/types-webview": "^1.0.2",
+        "@stuyk/altv-reconnect": "^1.5.0",
+        "@swc/cli": "^0.1.46",
+        "@swc/core": "^1.2.60",
+        "@types/axios": "^0.14.0",
+        "@types/express": "^4.17.8",
+        "@types/glob": "^7.1.3",
+        "@types/mongodb": "^3.6.8",
+        "@types/node": "^14.6.1",
+        "@types/ps-node": "^0.1.0",
+        "altv-pkg": "^1.2.0",
+        "dotenv": "^10.0.0",
+        "fs-extra": "^9.1.0",
+        "glob": "^7.1.6",
+        "nodemon": "^2.0.7",
+        "npm-run-all": "^4.1.5",
+        "promisify-child-process": "^4.1.1",
+        "rimraf": "^3.0.2",
+        "typescript": "latest"
     },
     "dependencies": {
-        "chalk": "^4.1.1",
-        "simplymongo": "^2.1.1",
+        "@assemblyscript/loader": "^0.17.13",
+        "@stuyk/ezmongodb": "^1.3.0",
+        "@types/node-fetch": "^2.5.10",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "chalk": "^4.1.0",
+        "cors": "^2.8.5",
+        "discord.js": "^12.5.3",
+        "elliptic": "^6.5.4",
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.1",
+        "ps-node": "^0.1.6",
         "sjcl": "^1.0.8"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120,
+        "singleQuote": true,
+        "semi": true,
+        "arrowParens": "always",
+        "trailingComma": "none"
     }
 }
