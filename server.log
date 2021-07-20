@@ -1,48 +1,42 @@
-[02:22:17] alt:V Server 4.0 (release)
-[02:22:17] Starting alt:V Athena Roleplay Framework on 0.0.0.0:7788
-[02:22:17] Loading resource core
-[02:22:17] Loading resource webview
-[02:22:18] Loaded resource webview
-[02:22:18] [94m[Athena][39m [94m==> Total Bootup Time -- 34ms[39m
-[02:22:18] Loaded resource core
-[02:22:18] Required server permissions:
-[02:22:18]    Screen Capture
-[02:22:18] Optional server permissions:
-[02:22:18] Starting HTTP server on 0.0.0.0:7788
-[02:22:18] Main thread started (ThreadId: 4816)
-[02:22:18] VoicePacketProcess thread started (ThreadId: 7936)
-[02:22:18] VoiceStreamer thread started (ThreadId: 26940)
-[02:22:18] Colshape thread started (ThreadId: 13880)
-[02:22:18] EntityStreamer thread started (ThreadId: 21228)
-[02:22:18] Network thread started (ThreadId: 12148)
-[02:22:18] Console thread started (ThreadId: 16500)
-[02:22:18] Server started
-[02:22:18] [94m[Athena][39m [94mLoading extras folder...[39m
-[02:22:18][Warning] resourceManager.Update() took: 113 ms
-[02:22:18] [94m[Athena][39m [94mMongoDB connection was established.[39m
-[02:22:19][Warning] resourceManager.Update() took: 136 ms
-[02:22:19][Warning] resourceManager.Update() took: 177 ms
-[02:22:19] [94m[Athena][39m [97mLoaded: ./teleportEffect/teleporter[39m
-[02:22:19][Warning] resourceManager.Update() took: 107 ms
-[02:22:19] [94m[Athena][39m [97mLoaded: ./heistExample/index[39m
-[02:22:19] [94m[Athena][39m [97mLoaded: ./deathLog/deathLog[39m
-[02:22:19] [94m[Athena][39m [97mLoaded: ./actionMenu/actionMenu[39m
-[02:22:19] [94m[Athena][39m [97mLoaded: ./interactionExample/index[39m
-[02:22:19] [94m[Athena][39m [97mLoaded: ./noMiniGun/index[39m
-[02:22:19] [94m[Athena][39m [94mExtra Resources Loaded: 6[39m
-[02:22:19] [94m[Athena][39m [94mServer Warmup Complete. Now accepting connections.[39m
-[02:22:19][Warning] Event handler at core:file:///C:/Users/Administrator/Desktop/athena/resources/core/server/views/atm.js:134 was too long 6ms
-[02:22:19] [altv-reconnect] Probably Not Running Reconnection Script
-[02:22:19] [altv-reconnect] Probably Not Running Reconnection Script
-[02:22:21] [94m[Athena][39m [94mTotal Commands: 45[39m
-[02:22:24] [altv-reconnect] Finished Reconnection
-[02:22:25] (0) Player has connected to the server.
-[02:22:39] [Athena] (0) lytran has authenticated.
-[08:11:21] Tran_Daica has logged out.
-[08:11:23] (1) Player has connected to the server.
-[08:11:23] [Athena] (1) Discord 741863559394492476 has logged in with a Quick Token 
-[08:51:27] Stopping resource core
-[08:51:27] Stopped resource core
-[08:51:27] Stopping resource webview
-[08:51:27] Stopped resource webview
-[08:51:27] Server shutdown
+[09:06:50] alt:V Server 4.0 (release)
+[09:06:50] Starting alt:V Athena Roleplay Framework on 0.0.0.0:7788
+[09:06:50] Loading resource core
+[09:06:50] Loading resource webview
+[09:06:51] Loaded resource webview
+[09:06:52] [94m[Athena][39m [94m==> Total Bootup Time -- 32ms[39m
+[09:06:52] Loaded resource core
+[09:06:52] Required server permissions:
+[09:06:52]    Screen Capture
+[09:06:52] Optional server permissions:
+[09:06:52] Starting HTTP server on 0.0.0.0:7788
+[09:06:52] Main thread started (ThreadId: 23708)
+[09:06:52] VoicePacketProcess thread started (ThreadId: 20644)
+[09:06:52] VoiceStreamer thread started (ThreadId: 22668)
+[09:06:52] Colshape thread started (ThreadId: 21316)
+[09:06:52] EntityStreamer thread started (ThreadId: 15052)
+[09:06:52] Network thread started (ThreadId: 21612)
+[09:06:52] Console thread started (ThreadId: 11208)
+[09:06:52] Server started
+[09:06:52] [94m[Athena][39m [94mLoading extras folder...[39m
+[09:06:52][Warning] resourceManager.Update() took: 110 ms
+[09:06:52] [94m[Athena][39m [94mMongoDB connection was established.[39m
+[09:06:52][Warning] resourceManager.Update() took: 224 ms
+[09:06:53][Warning] resourceManager.Update() took: 1028 ms
+[09:06:53] [94m[Athena][39m [97mLoaded: ./teleportEffect/teleporter[39m
+[09:06:53][Warning] resourceManager.Update() took: 212 ms
+[09:06:53] [94m[Athena][39m [97mLoaded: ./heistExample/index[39m
+[09:06:53] [94m[Athena][39m [97mLoaded: ./deathLog/deathLog[39m
+[09:06:53] [94m[Athena][39m [97mLoaded: ./actionMenu/actionMenu[39m
+[09:06:54] [94m[Athena][39m [97mLoaded: ./interactionExample/index[39m
+[09:06:54] [94m[Athena][39m [97mLoaded: ./noMiniGun/index[39m
+[09:06:54] [94m[Athena][39m [94mExtra Resources Loaded: 6[39m
+[09:06:54] [94m[Athena][39m [94mServer Warmup Complete. Now accepting connections.[39m
+[09:06:54] [altv-reconnect] Probably Not Running Reconnection Script
+[09:06:54] [altv-reconnect] Probably Not Running Reconnection Script
+[09:06:55] [94m[Athena][39m [94mTotal Commands: 45[39m
+[09:09:52] [altv-reconnect] Finished Reconnection
+[09:09:54] (0) Player has connected to the server.
+[09:09:54] [Athena] (0) Discord 741863559394492476 has logged in with a Quick Token 
+[09:10:47] (1) Player has connected to the server.
+[09:11:51] [Athena] (1) lytran has authenticated.
+[09:12:10][Warning] Timer at core:file:///C:/Users/Administrator/Desktop/gameGTA/resources/core/server/extensions/playerFunctions/select.js:32 was too long 13ms

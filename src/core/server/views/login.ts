@@ -69,7 +69,6 @@ async function handlePlayerConnect(player: alt.Player) {
     const discordOAuth2URL = getDiscordOAuth2URL();
 
     alt.emit(`Discord:Opened`, player);
-    console.log("Discord:Open");
     alt.emitClient(player, 'Discord:Open', `${discordOAuth2URL}&state=${player.discordToken}`);
 }
 
@@ -144,7 +143,6 @@ async function handleFinishAuth(player) {
     //     return;
     // }
     const data = await Database.fetchData<any>('player_identifier', player_identifier, 'discords');
-    console.log(data)
     alt.emitClient(player, `Discord:Close`);
     alt.emit('Discord:Login', player, data);
 }
