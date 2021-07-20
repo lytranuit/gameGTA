@@ -6,13 +6,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import Database from '@stuyk/ezmongodb';
 
+import env from 'dotenv';
+env.config();
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const MONGO_URL = process.env.MONGO_URL;
+const WEBSERVER_IP = process.env.WEBSERVER_IP;
+
+console.log(MONGO_URL);
 // Connection URL. This is where your mongodb server is running.
-var url = 'mongodb://localhost:27017';
+
 
 const app = express();
 const currentPath = path.join(process.cwd(), '/utility/webserver/files');
 const port = 9111;
-Database.init(url, 'athena', ['discords'])
+Database.init(MONGO_URL, 'athena', ['discords'])
     .catch(() => {
         MongoUtil.throwConnectionError();
     })
@@ -32,10 +40,10 @@ app.get('/auth/redirect', async function (req, res) {
     let code = req.query.code;
     let dicordToken = req.query.state;
     const data_1 = new URLSearchParams();
-    data_1.append('client_id', '866612813173751808');
-    data_1.append('client_secret', 'nmbk36CQ9wHVwLiPiBSGDyr7cbR6KL4u');
+    data_1.append('client_id', CLIENT_ID);
+    data_1.append('client_secret', CLIENT_SECRET);
     data_1.append('grant_type', 'authorization_code');
-    data_1.append('redirect_uri', 'http://localhost:9111/auth/redirect');
+    data_1.append('redirect_uri', `http://${WEBSERVER_IP}:9111/auth/redirect'`);
     data_1.append('scope', 'identify');
     data_1.append('code', code);
     let data = await fetch('https://discord.com/api/oauth2/token', { method: 'POST', body: data_1 }).then((response) =>
